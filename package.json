@@ -1,0 +1,14 @@
+{
+  "name": "prolog_project_2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "build": "docker build -t job-exchange .",
+  "scripts": {
+    "build": "docker build -t prolog-cad .",
+    "start:docker": "docker run -it -v $(pwd)/data:/app/data prolog-cad"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
